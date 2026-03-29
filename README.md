@@ -63,4 +63,4 @@ Para rodar a suíte de testes configurada com o Vitest, utilize o comando:
 ```bash
    npm run test
    ```
-**Desenvolvido por Evelyn Sousa como projeto final do curso Desenvolvedor Web Full Stack - Online - 3.0**
+### **Desenvolvido por Evelyn Sousa como projeto final do curso Desenvolvedor Web Full Stack - Online - 3.0**
