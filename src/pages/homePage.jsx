@@ -26,7 +26,7 @@ const productsData = [
   
   { id: 4, name: "BEMMY Chinelo de tubarão", image: "https://m.media-amazon.com/images/I/6163WQt70lL._AC_SY500_.jpg", price: 59, category: "Calçados" },
 
-  { id: 5, name: "Reebok Classic Leather", image: "https://static.hupishop.com.br/public/hupibikes/imagens/produtos/tenis-reebok-classic-nylon-bege-feminino-667d9a2cdd458.jpg", price: 30, category: "Calçados" },
+  { id: 5, name: "Reebok Classic Leather", image: "https://asicsbr.vteximg.com.br/arquivos/ids/3745091-1000-1000/image-1.jpg", price: 30, category: "Calçados" },
   
   { id: 6, name: "Converse Chuck Taylor", image: "https://cloviscalcados.vteximg.com.br/arquivos/ids/1036233-1024-1024/Tenis-Masculino-Chuck-Taylor-Converse-All-Star-CT00040007-0320004_001-02.jpg?v=638364710577700000", price: 250, category: "Calçados" },
 

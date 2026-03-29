@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom';
 const categorias = [
   {
     nome: 'Camisetas',
-    imagem: 'https://img.freepik.com/psd-gratuitas/homem-de-camiseta-branca-sentado-em-um-cafe_23-2151971621.jpg?t=st=1774654514~exp=1774658114~hmac=f1e5346ac64d1ea36cf80800eb26618111071d7ad232fcc96af6531629cc524a&w=1060',
+    imagem: 'public/416782855_11662230.jpg',
   },
   {
     nome: 'Calças',
-    imagem: 'https://img.freepik.com/fotos-gratis/mao-segurando-calcas-beige-castanhas-claras_23-2150756279.jpg?t=st=1774655855~exp=1774659455~hmac=f9649d34449ec5d3dfb0fbd2156b477a4f2172ddffb4fcef1e240ad0273210ec&w=1060',
+    imagem: 'public/hand-holding-light-brown-beige-pants.jpg',
   },
   {
     nome: 'Bonés',
@@ -15,7 +15,7 @@ const categorias = [
   },
   {
     nome: 'Calçados',
-    imagem: 'https://img.freepik.com/fotos-gratis/salto-alto-em-veludo-preto_53876-102771.jpg?t=st=1774656626~exp=1774660226~hmac=00d7557ca8d1976ba2231da1f1fc903156be607017fe44ee5fcbfebd29b97abe&w=1060',
+    imagem: 'public/high-heels-black-velvet.jpg',
   },
   {
     nome: 'Headphones',
@@ -28,7 +28,7 @@ const CategoriasPage = () => {
 
   const handleClick = (categoria) => {
     navigate(`/produtos?categoria=${encodeURIComponent(categoria)}`);
-  };
+  }
 
   return (
     <div className="min-h-screen bg-base py-16 px-4 sm:px-6 md:px-10">

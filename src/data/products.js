@@ -120,14 +120,14 @@ export const products = [
   },
   {
     id: 6,
-    title: "Reebok Classic Leather",
-    name: "Reebok Classic Leather",
-    reference: "Ref. REEBOKCL-BR",
+    title: "Converse Chuck Taylor",
+    name: "Converse Chuck Taylor",
+    reference: "Ref. CONVERSECT-BR",
     stars: 4.4,
     rating: 170,
     price: 229.99,
     priceDiscount: 169.99,
-    description: "Tênis Reebok com design atemporal.",
+    description: "Tênis Converse com design atemporal.",
     image: "https://static.hupishop.com.br/public/hupibikes/imagens/produtos/tenis-reebok-classic-nylon-bege-feminino-667d9a2cdd458.jpg",
     images: [
       { src: "https://imgreebok-a.akamaihd.net/360x360/0163502WA1.jpg" },
