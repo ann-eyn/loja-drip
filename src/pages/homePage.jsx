@@ -26,7 +26,7 @@ const productsData = [
   
   { id: 4, name: "BEMMY Chinelo de tubarão", image: "https://m.media-amazon.com/images/I/6163WQt70lL._AC_SY500_.jpg", price: 59.00, category: "Calçados" },
 
-  { id: 5, name: "Reebok Classic Leather", image: "https://asicsbr.vteximg.com.br/arquivos/ids/3745091-1000-1000/image-1.jpg", price: 299.99, category: "Calçados" },
+  { id: 5, name: "Reebok Classic Leather", image: "https://asicsbr.vteximg.com.br/arquivos/ids/3745091-1000-1000/image-1.jpg", price: 399.99, priceDiscount: 299.99, category: "Calçados" },
   
   { id: 6, name: "Converse Chuck Taylor", image: "https://cloviscalcados.vteximg.com.br/arquivos/ids/1036233-1024-1024/Tenis-Masculino-Chuck-Taylor-Converse-All-Star-CT00040007-0320004_001-02.jpg?v=638364710577700000", price: 229.99, priceDiscount: 169.99, category: "Calçados" },
 
@@ -36,7 +36,7 @@ const productsData = [
 
   { id: 9, name: "Boné MST", image: "https://http2.mlstatic.com/D_NQ_NP_662323-MLB78900818559_092024-O-bone-mst-brim-6-gomos-adulto.webp", price: 59.00, category: "Bonés" },
 
-  { id: 10, name: "Headphone JBL", image: "https://m.media-amazon.com/images/I/61BDf8KO8AL.__AC_SX300_SY300_QL70_ML2_.jpg", price: 299.00, priceDiscount: 249.00, category: "Headphones" },
+  { id: 10, name: "Headphone JBL", image: "https://m.media-amazon.com/images/I/61BDf8KO8AL.__AC_SX300_SY300_QL70_ML2_.jpg", price: 400.00, priceDiscount: 349.00, category: "Headphones" },
 
   { id: 11, name: "Headphone Anker Q201", image: "https://m.media-amazon.com/images/I/61UAFRru23L._AC_SX425_.jpg", price: 331.00, priceDiscount: 299.00, category: "Headphones" },
 ];

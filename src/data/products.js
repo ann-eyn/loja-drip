@@ -6,8 +6,8 @@ export const products = [
     reference: "Ref. NIKE270-BR",
     stars: 4.5,
     rating: 128,
-    price: 299.99,
-    priceDiscount: 209.99,
+    price: 200.00,
+    priceDiscount: 149.90,
     description: "Tênis Nike confortável e estiloso.",
     image: "https://images-na.ssl-images-amazon.com/images/I/717fbeslx0L._AC_SR462,693_.jpg",
     images: [
@@ -30,8 +30,8 @@ export const products = [
     reference: "Ref. ADIDASUB-BR",
     stars: 4.7,
     rating: 200,
-    price: 349.99,
-    priceDiscount: 249.99,
+    price: 200.00,
+    priceDiscount: 180.00,
     description: "Tênis Adidas com tecnologia de amortecimento.",
     image: "https://authenticfeet.vtexassets.com/arquivos/ids/434723-800-800?v=638562278565370000&width=800&height=800&aspect=true",
     images: [
