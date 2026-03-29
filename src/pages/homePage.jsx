@@ -22,23 +22,23 @@ const productsData = [
  
   { id: 2, name: "Adidas Ultraboost", image: "https://authenticfeet.vtexassets.com/arquivos/ids/434723-800-800?v=638562278565370000&width=800&height=800&aspect=true", price: 200, category: "Calçados", priceDiscount: 180 },
   
-  { id: 3, name: "Bota Sperry Parafuso de cano", image: "https://m.media-amazon.com/images/I/61s8+4iqNyL._AC_SY879_.jpg", price: 179.90, category: "Calçados", priceDiscount: 199.99 },
+  { id: 3, name: "Bota Sperry Parafuso de cano", image: "https://m.media-amazon.com/images/I/61s8+4iqNyL._AC_SY879_.jpg", price: 279.90, priceDiscount: 199.99, category: "Calçados" },
   
-  { id: 4, name: "BEMMY Chinelo de tubarão", image: "https://m.media-amazon.com/images/I/6163WQt70lL._AC_SY500_.jpg", price: 59, category: "Calçados" },
+  { id: 4, name: "BEMMY Chinelo de tubarão", image: "https://m.media-amazon.com/images/I/6163WQt70lL._AC_SY500_.jpg", price: 59.00, category: "Calçados" },
 
-  { id: 5, name: "Reebok Classic Leather", image: "https://asicsbr.vteximg.com.br/arquivos/ids/3745091-1000-1000/image-1.jpg", price: 30, category: "Calçados" },
+  { id: 5, name: "Reebok Classic Leather", image: "https://asicsbr.vteximg.com.br/arquivos/ids/3745091-1000-1000/image-1.jpg", price: 299.99, category: "Calçados" },
   
-  { id: 6, name: "Converse Chuck Taylor", image: "https://cloviscalcados.vteximg.com.br/arquivos/ids/1036233-1024-1024/Tenis-Masculino-Chuck-Taylor-Converse-All-Star-CT00040007-0320004_001-02.jpg?v=638364710577700000", price: 250, category: "Calçados" },
+  { id: 6, name: "Converse Chuck Taylor", image: "https://cloviscalcados.vteximg.com.br/arquivos/ids/1036233-1024-1024/Tenis-Masculino-Chuck-Taylor-Converse-All-Star-CT00040007-0320004_001-02.jpg?v=638364710577700000", price: 229.99, priceDiscount: 169.99, category: "Calçados" },
 
   { id: 7, name: "Camiseta Peanuts Best Friends", image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdvg-mcbjxunek52199@resize_w450_nl.webp", price: 100, category: "Camisetas" },
 
-  { id: 8, name: "Calça Mom Jeans", image: "https://oqvestir.fbitsstatic.net/img/p/calca-feminina-mom-jeans-azul-178657/463134.jpg?w=1600&h=2133&v=202501231556", price: 400, category: "Calças" },
+  { id: 8, name: "Calça Mom Jeans", image: "https://oqvestir.fbitsstatic.net/img/p/calca-feminina-mom-jeans-azul-178657/463134.jpg?w=1600&h=2133&v=202501231556", price: 179.99, priceDiscount: 139.99, category: "Calças" },
 
-  { id: 9, name: "Boné MST", image: "https://http2.mlstatic.com/D_NQ_NP_662323-MLB78900818559_092024-O-bone-mst-brim-6-gomos-adulto.webp", price: 200, category: "Bonés" },
+  { id: 9, name: "Boné MST", image: "https://http2.mlstatic.com/D_NQ_NP_662323-MLB78900818559_092024-O-bone-mst-brim-6-gomos-adulto.webp", price: 59.00, category: "Bonés" },
 
-  { id: 10, name: "Headphone JBL", image: "https://m.media-amazon.com/images/I/61BDf8KO8AL.__AC_SX300_SY300_QL70_ML2_.jpg", price: 299, category: "Headphones" },
+  { id: 10, name: "Headphone JBL", image: "https://m.media-amazon.com/images/I/61BDf8KO8AL.__AC_SX300_SY300_QL70_ML2_.jpg", price: 299.00, priceDiscount: 249.00, category: "Headphones" },
 
-  { id: 11, name: "Headphone Anker Q201", image: "https://m.media-amazon.com/images/I/61UAFRru23L._AC_SX425_.jpg", price: 331, category: "Headphones" },
+  { id: 11, name: "Headphone Anker Q201", image: "https://m.media-amazon.com/images/I/61UAFRru23L._AC_SX425_.jpg", price: 331.00, priceDiscount: 299.00, category: "Headphones" },
 ];
 
 const HomePage = () => {

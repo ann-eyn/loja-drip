@@ -19,9 +19,9 @@ const location = useLocation();
   });
 
   const allFilters = [
-    { label: 'Marca', options: ['Adidas', 'Sperry', 'K-Swiss', 'Nike', 'Puma', 'Stamp', 'OQVestir', 'JBL', 'MST', 'Anker Q201'] },
+    { label: 'Marca', options: ['Adidas', 'Sperry', 'Nike', 'Stamp', 'OQVestir', 'JBL', 'MST', 'Anker Q201'] },
     { label: 'Categoria', options: ['Camisetas', 'Calças', 'Bonés', 'Headphones', 'Calçados'] },
-    { label: 'Gênero', options: ['Masculino', 'Feminino', 'Unisex'] },
+    { label: 'Gênero', options: ['Masculino', 'Feminino', 'Unissex'] },
     { label: 'Estado', options: ['Novo', 'Usado'] },
   ];
 
