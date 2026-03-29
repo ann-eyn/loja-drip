@@ -1,16 +1,66 @@
-# React + Vite
+# Loja Drip
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Loja Drip** é uma aplicação web de e-commerce desenvolvida como avaliação final do curso Geração Tech. A plataforma foi projetada para a venda de produtos de moda e estilo, oferecendo uma experiência de compra completa com interface responsiva e navegação intuitiva. Utiliza dados locais simulados para demonstração das funcionalidades.
 
-Currently, two official plugins are available:
+> **Status do Projeto:** Concluído
+> **Acesso ao Projeto:** [Link para o deploy da aplicação no Vercel](https://loja-drip-eta.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+**Catálogo de Produtos:** Listagem dinâmica com opções de filtragem e categorias.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Carrinho de Compras:** Adição, remoção e visualização de itens escolhidos.
 
-## Expanding the ESLint configuration
+**Autenticação:** Sistema de login e gerenciamento de sessão de usuários.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Navegação SPA:** Transições fluidas entre páginas sem recarregar o navegador.
+
+**Dados Simulados:** Consumo de dados locais via Axios para demonstração das funcionalidades sem necessidade de um backend robusto ativo.
+
+## Tecnologias Utilizadas
+
+A base do projeto foi construída com as seguintes tecnologias e ferramentas:
+
+* **React:** Biblioteca para construção de interfaces de usuário.
+* **Vite:** Ferramenta de build otimizada para desenvolvimento rápido.
+* **Tailwind CSS:** Framework de CSS utilitário para estilização e responsividade.
+* **React Router DOM:** Gerenciamento de rotas da aplicação.
+* **Axios:** Cliente HTTP para integração com a API.
+* **React Icons:** Padronização visual da iconografia.
+* **ESLint:** Ferramenta de linting para garantir a qualidade e padronização do código.
+* **Vitest:** Framework voltado para a execução de testes.
+
+## Como Executar o Projeto
+
+# Pré-requisitos
+Certifique-se de ter o **Node.js** e o **Git** instalados em sua máquina.
+
+# Instalação
+1. Faça o clone do repositório:
+
+```bash
+   git clone https://github.com/ann-eyn/loja-drip.git
+   ```
+
+2. Acesse o diretório do projeto:
+```bash
+   cd loja-drip
+   ```
+
+3. instale as dependências necessárias:
+```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+```bash
+   npm run dev
+   ```
+O servidor será iniciado. Abra o navegador e acesse o link.
+
+## Executando os testes
+Para rodar a suíte de testes configurada com o Vitest, utilize o comando:
+```bash
+   npm run test
+   ```
+**Desenvolvido por Evelyn Sousa como projeto final do curso Desenvolvedor Web Full Stack - Online - 3.0**
