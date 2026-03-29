@@ -32,10 +32,10 @@ A base do projeto foi construída com as seguintes tecnologias e ferramentas:
 
 ## Como Executar o Projeto
 
-# Pré-requisitos
+### Pré-requisitos
 Certifique-se de ter o **Node.js** e o **Git** instalados em sua máquina.
 
-# Instalação
+### Instalação
 1. Faça o clone do repositório:
 
 ```bash
